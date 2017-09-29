@@ -7,16 +7,14 @@ package planeadordecitas;
 
 /**
  *
- * @author admin
+ * @author 
  */
-public class Planeadordecitas {
+public class Creneau {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-        // TODO code application logic here
+    public Creneau(String heuredebut, String heurefin) {
+        this.heuredebut = heuredebut;
+        this.heurefin = heurefin;
     }
-    
+    private String heuredebut;
+    private String heurefin;
 }

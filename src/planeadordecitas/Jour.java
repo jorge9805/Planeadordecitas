@@ -9,14 +9,14 @@ package planeadordecitas;
  *
  * @author admin
  */
-public class Planeadordecitas {
+public class Jour {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-        // TODO code application logic here
+    public Jour(String date, String name, Creneau[] creneau) {
+        this.date = date;
+        this.name = name;
+        this.creneau = creneau;
     }
-    
+    private String date;
+    private String name;
+    private Creneau creneau[]; 
 }

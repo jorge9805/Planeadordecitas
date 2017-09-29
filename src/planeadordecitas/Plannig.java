@@ -9,14 +9,10 @@ package planeadordecitas;
  *
  * @author admin
  */
-public class Planeadordecitas {
+public class Plannig {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
-        // TODO code application logic here
+    public Plannig(Salle[] salle) {
+        this.salle = salle;
     }
-    
+    private Salle salle[];
 }
